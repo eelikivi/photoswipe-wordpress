@@ -1,0 +1,19 @@
+{
+  "name": "photoswipe-wordpress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/eelikivi/photoswipe-wordpress.git",
+  "author": "Eeli Kivikaarre",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.17.16",
+    "esbuild-sass-plugin": "^2.8.0",
+    "eslint": "^8.38.0",
+    "minimist": "^1.2.8"
+  },
+  "scripts": {
+    "dev": "node build.js --dev true",
+    "build": "node build.js"
+  }
+}
